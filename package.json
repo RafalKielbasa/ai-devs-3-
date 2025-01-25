@@ -11,7 +11,8 @@
     "S01E02": "node ./scripts/S01E02.js",
     "S01E03": "node ./scripts/S01E03.js",
     "S01E04": "node ./scripts/S01E04.js",
-    "S02E01": "node ./scripts/S02E01.js"
+    "S02E01": "node ./scripts/S02E01.js",
+    "S02E02": "node ./scripts/S02E02.js"
   },
   "keywords": [],
   "author": "",
