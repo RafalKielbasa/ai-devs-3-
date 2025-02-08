@@ -1,5 +1,5 @@
 import { openai } from '../utils/openai.js'
-import dotenv from 'dotenv'
+
 import axios from 'axios'
 
 const systemMessage = `
