@@ -11,7 +11,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-app.use('/api/navigator', navigator)
+app.use('/', navigator)
 
 app.get('/', (req, res) => {
   res.send('Server is running')
