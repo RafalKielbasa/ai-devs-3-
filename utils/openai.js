@@ -15,9 +15,10 @@ export const createEmbedings = async (document) => {
   return embedding
 }
 
-export const createCompletion = async (systemPrompt, userPropmt) => {
+export const createCompletion = async (systemPrompt, userPropmt, model) => {
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o',
+    model: model || 'gpt-4o',
+    temperature: 1,
     messages: [
       {
         role: 'system',
